@@ -1,0 +1,50 @@
+{
+  "name": "@feraterra/plugin-elizaos",
+  "version": "1.0.2",
+  "description": "Zero-dependency ElizaOS plugin for FeraTerra — sovereign CLOB perpetuals, spot, basis spreads, zero-key stateless order preview, headless protocol terms, leaderboard, and cryptographic solvency verification on Base.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "module": "./src/index.mjs",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.mjs",
+      "default": "./src/index.mjs"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/plugin.test.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeraTerra/elizaos-plugin-feraterra.git"
+  },
+  "homepage": "https://feraterra.app",
+  "bugs": {
+    "url": "https://github.com/FeraTerra/elizaos-plugin-feraterra/issues"
+  },
+  "keywords": [
+    "elizaos",
+    "elizaos-plugin",
+    "mcp",
+    "defi",
+    "perpetuals",
+    "clob",
+    "base",
+    "feraterra"
+  ]
+}
